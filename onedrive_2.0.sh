@@ -95,6 +95,7 @@ onedrive --synchronize --sync-shared-folders |
         	s/Creating/$(printf "${blue}Creating${normal}")/;
         	s/Downloading/$(printf "${magenta}Downloading${normal}")/;
         	s/Moving/$(printf "${magenta}Moving${normal}")/;
+        	s/WARNING:/$(printf "${yellow}⚠️  WARNING:${normal}")/;
         	s/Deleting/$(printf "${yellow}Deleting${normal}")/;
         	s/deleted/$(printf "${yellow}deleted${normal}")/;
     		s/Skipping/$(printf "${red}Skipping${normal}")/;
