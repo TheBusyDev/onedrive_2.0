@@ -14,7 +14,7 @@ wget link
 chmod u+x ./onedrive_2.0.sh
 ```
 
-* Execute the script in the command line:
+* Execute the script by the command line:
 ```text
 ./onedrive_2.0.sh
 ```
