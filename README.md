@@ -20,4 +20,5 @@ chmod u+x ./onedrive_2.0.sh
 ```
 
 ## Example
-An example is given below:
+An example is given below:\
+![example](example.png)
