@@ -4,9 +4,10 @@ My version of __OneDrive Colorful Output__ is inspired by [this script by zzzdeb
 If you have any feedback and/or suggestions to send me, I'd really appreciate it!!
 
 ## Installation
-* Just download the script - click the [link]() or run the following command:
+* Just download the script - click the [link](https://github.com/TheBusyDev/onedrive_2.0/archive/refs/heads/main.zip) or run the following command:
 ```text
-wget link
+wget https://raw.githubusercontent.com/TheBusyDev/onedrive_2.0/main/onedrive_2.0.sh
+wget https://raw.githubusercontent.com/TheBusyDev/onedrive_2.0/main/onedrive_logo.txt
 ```
 
 * Make it executable: 
