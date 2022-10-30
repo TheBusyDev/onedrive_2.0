@@ -4,13 +4,13 @@ My version of __OneDrive Colorful Output__ is inspired by [this script by zzzdeb
 If you have any feedback and/or suggestions to send me, I'd really appreciate it!!
 
 ## Installation
-* Just download the script - click the [link](https://github.com/TheBusyDev/onedrive_2.0/archive/refs/heads/main.zip) (and unzip the downloaded file) or run the following command:
+* Just download the necessary files - click the [link](https://github.com/TheBusyDev/onedrive_2.0/archive/refs/heads/main.zip) (and unzip it) or run the following command:
 ```text
 wget https://raw.githubusercontent.com/TheBusyDev/onedrive_2.0/main/onedrive_2.0.sh
 wget https://raw.githubusercontent.com/TheBusyDev/onedrive_2.0/main/onedrive_logo.txt
 ```
 
-* Make it executable: 
+* Make the script executable: 
 ```text
 chmod u+x ./onedrive_2.0.sh
 ```
@@ -19,6 +19,8 @@ chmod u+x ./onedrive_2.0.sh
 ```text
 ./onedrive_2.0.sh
 ```
+
+* __WARNING__: to work correctly, the 2 files (_onedrive_2.0.sh_ and _onedrive_logo.txt_) must be located in the same folder!
 
 ## Example
 An example is given below:\
