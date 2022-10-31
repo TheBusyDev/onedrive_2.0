@@ -25,6 +25,7 @@ blue="\033[1;34m"
 magenta="\033[1;35m"
 cyan="\033[1;36m"
 white="\033[1;37m"
+bold="\033[1m"
 normal="\033[0m"
 
 # Print OneDrive logo as ASCII art
@@ -90,7 +91,12 @@ printf "${normal}\n\n\n"
 # Perform sync through 'OneDrive Client for Linux' by abraunegg
 onedrive --synchronize --sync-shared-folders |
 	tee "$FILE" | # save .log file in $FILE ($FILE is located in $DIR directory)
-  	sed -u "s/Syncing/$(printf "${cyan}Syncing${normal}")/;
+  	sed -u "s/changes from OneDrive/$(printf "${bold}changes from OneDrive${normal}")/;
+  		s/OneDrive Business Shared Folder/$(printf "${bold}OneDrive Business Shared Folder${normal}")/;
+  		s/new items/$(printf "${bold}new items${normal}")/;
+  		s/Configuring/$(printf "${bold}Configuring${normal}")/;
+  		s/Initializing/$(printf "${bold}Initializing${normal}")/;
+  		s/Syncing/$(printf "${cyan}Syncing${normal}")/;
 		s/Uploading/$(printf "${blue}Uploading${normal}")/;
         	s/Creating/$(printf "${blue}Creating${normal}")/;
         	s/Downloading/$(printf "${magenta}Downloading${normal}")/;
