@@ -93,6 +93,7 @@ onedrive --synchronize --sync-shared-folders |
 	tee "$FILE" | # save .log file in $FILE ($FILE is located in $DIR directory)
   	sed -u "s/changes from OneDrive/$(printf "${bold}changes from OneDrive${normal}")/;
   		s/OneDrive Business Shared Folder/$(printf "${bold}OneDrive Business Shared Folder${normal}")/;
+  		s/differences/$(printf "${bold}differences${normal}")/;
   		s/new items/$(printf "${bold}new items${normal}")/;
   		s/Configuring/$(printf "${bold}Configuring${normal}")/;
   		s/Initializing/$(printf "${bold}Initializing${normal}")/;
