@@ -103,9 +103,10 @@ onedrive --synchronize --sync-shared-folders |
         	s/Downloading/$(printf "${magenta}Downloading${normal}")/;
         	s/Moving/$(printf "${magenta}Moving${normal}")/;
         	s/WARNING:/$(printf "${yellow}⚠️  WARNING:${normal}")/;
+		s/Trying to delete/$(printf "${yellow}Trying to delete${normal}")/;
         	s/Deleting/$(printf "${yellow}Deleting${normal}")/;
-        	s/deleted/$(printf "${yellow}deleted${normal}")/;
-    		s/Skipping/$(printf "${red}Skipping${normal}")/;
+    		s/Skipped/$(printf "${red}Skipped${normal}")/;
+    		s/skipped/$(printf "${red}skipped${normal}")/;
         	s/error/$(printf "${red}ERROR❎${normal}")/;
         	s/ERROR/$(printf "${red}ERROR❎${normal}")/;
         	s/done./$(printf "${green}done✔${normal}")/;" # turn output into an awesome and colorful text! :)
