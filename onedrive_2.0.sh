@@ -119,14 +119,14 @@ then
 
 	if [ $? == 0 ]
 	then
-		printf "\n\n${red}WARNING: Some files have been skipped!${normal}\n\n"
+		printf "${red}WARNING: Some files have been skipped!${normal}\n\n"
 	fi
 
 	grep -i "error" "$FILE"	# look for general errors occured during sync
 
 	if [ $? == 0 ]
 	then
-		printf "\n\n${red}WARNING: Some errors occured!${normal}\n\n"
+		printf "${red}WARNING: Some errors occured!${normal}\n\n"
 	fi
 
 	printf "${cyan}Sync completed!\n"
