@@ -23,4 +23,4 @@ chmod u+x ./onedrive_2.0.sh
 ./onedrive_2.0.sh
 ```
 
-* __WARNING:__ to work correctly, the two files (_onedrive_2.0.sh_ and _onedrive_logo.txt_) must be located in the same folder!
+* __WARNING:__ to work properly, the two files (_onedrive_2.0.sh_ and _onedrive_logo.txt_) must be located in the same folder!
